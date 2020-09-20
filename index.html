@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>Covid TRACER</title>
+    </head>
+    <body>
+        
+        <div class="main-container" id="main-container">
+            <div class="countryName" id="countryName">
+                <h4 class="grey">Country Name</h4>
+                <h3 class="country"><span id="country"></span></h3>
+            </div>
+            
+            <div class="box" id="box">
+                <div class="totalCases" id="totalCases">
+                    <h4 class="grey">Total Infected</h4>
+                    <p><span id="cases"></span></p>
+                </div>
+            </div>
+            
+            <div class="box" id="box">
+                <div class="totalCases">
+                    <h4 class="grey">New Infected</h4>
+                    <p><span id="newCases"></span></p>
+                </div>
+            </div>
+            
+            <div class="box" id="box1">
+                <div class="totalDeath" id="totalDeath">
+                    <h4 class="grey">Total Deaths</h4>
+                    <p><span id="death"></span></p>
+                </div>
+            </div>
+            
+            <div class="box" id="box1">
+                <div class="totalDeath" >
+                    <h4 class="grey">Recent Deaths</h4>
+                    <p><span id="newDeath"></span></p>
+                </div>
+            </div>
+            
+            <div class="box" id="box2">
+                <div class="totalRecovered" id="totalRecovered">
+                    <h4 class="grey">Total Recovered</h4>
+                    <p><span id="recovered"></span></p>
+                </div>
+            </div> 
+            
+            <div class="box" id="box2">
+                <div class="totalRecovered">
+                    <h4 class="grey">New Recovered</h4>
+                    <p><span id="newRecovered"></span></p>
+                </div>
+            </div>  
+        </div>
+        
+        <div class="main-container1">
+          <canvas id="myChart" ></canvas>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

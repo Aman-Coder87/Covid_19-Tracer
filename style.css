@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-container {
+    display: grid;
+    place-items: center;
+    width: 90vw;
+    height: auto;
+    margin: 1rem 0 0 0;
+    min-height: 90vh;
+    background: #eeeeee;
+    border-radius: 1rem;
+    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.countryName {
+    width: 60vw;
+    background: #f1f1f1;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    text-shadow: 0.8rem 0 2rem rgba(255, 255, 255, 0.4);
+    box-shadow: inset -6px -6px 5px 0 rgba(0, 0, 0, 0.1), inset 7px 7px 20px 0 rgba(255, 255, 255, 0.6);
+}
+
+.grey {
+    color: #a1a1a1fc;
+}
+
+.countryName .country {
+    margin-top: 1rem;
+}
+
+.main-container .box {
+    margin: 1rem 0;
+    position: relative;
+    padding: 0.8rem 1.2rem;
+    border-radius: 1rem;
+    box-shadow: inset -6px -6px 5px 0 rgba(0, 0, 0, 0.1), inset 7px 7px 20px 0 rgba(255, 255, 255, 0.6);
+}
+
+#box, #box2 {
+    margin-left: -35%;
+}
+
+#box1 {
+    margin-right: -35%;
+}
+
+.main-container1 {
+    display: grid;
+    place-items: center;
+    width: 90vw;
+    height: 6rem;
+    margin: 1rem 0 0 0;
+    min-height: 90vh;
+    background: #eeeeee;
+    border-radius: 1rem;
+    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.7), 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#myChart {
+    height: 6rem;
+    width: 100%;
+}
+
+ h1, h2, h3, h4, h5 {
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+#country {
+    font-size: 2rem;
+    font-weight: 950;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+
+
+
